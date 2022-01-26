@@ -1,0 +1,139 @@
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0px 100px;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 8px 40px;
+  border: 0px;
+}
+
+/* top Part */
+.top {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 200px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.header img {
+  width: 250px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  gap: 10px;
+}
+
+.top-content-box {
+  display: flex;
+  padding: 100px 0px;
+  gap: 20px;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.top-content {
+  max-width: 400px;
+}
+.top-content-box img {
+  max-width: 400px;
+}
+
+/* information card */
+.information-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px;
+  gap: 20px;
+}
+
+.information-header {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.information {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info {
+  width: 150px;
+}
+
+.information img {
+  width: 150px;
+  border-radius: 10px;
+  border: 3px solid #3882f6;
+}
+
+/* Quote */
+.quote {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  padding: 40px 200px;
+}
+
+.quote-content {
+  max-width: 600px;
+  color: #1f2937;
+  font-style: italic;
+}
+
+.quoter {
+  font-weight: bold;
+  margin-left: auto;
+}
+
+/* signup */
+.signup {
+  display: flex;
+  background-color: #3882f6;
+  padding: 20px 70px;
+  color: white;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
+  border-radius: 10px;
+}
+
+.signup .content .header {
+  font-size: 24px;
+  font-weight: bold;
+}
+.signup-button {
+  border: 3px solid white;
+}
+
+/* footer */
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e5e7eb;
+  padding: 100px 300px;
+}
